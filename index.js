@@ -6,7 +6,7 @@ planeteerCalls = ["earth", "wind", "fire", "water", "heart"]
 
 function dwarfRollCall(dwarves) {
   let orderedDwarves= []
-  for (let i = 0; i < dwarves.length; i++){
+  for (let i = 0; i < dwarves.length/2; i++){
     orderedDwarves.push(`${i+1}. ${dwarves[i]} `)  
 }
 return orderedDwarves.join("")
