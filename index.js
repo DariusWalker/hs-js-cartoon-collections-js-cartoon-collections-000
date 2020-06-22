@@ -20,6 +20,8 @@ return planeteerCalls.map(a=>a.toUpperCase()+"!")
  
 }
 
+
+
 function longPlaneteerCalls(words) {
   for(let i = 0; i < words.length; i++){
     if(words[i].length>4)
